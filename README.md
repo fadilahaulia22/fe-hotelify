@@ -2,6 +2,10 @@
 
 **Hotelify** adalah aplikasi manajemen pemesanan hotel yang dibangun dengan menggunakan Java Spring Boot di sisi backend dan React di sisi frontend. Aplikasi ini dirancang untuk memberikan pengalaman pemesanan hotel yang efisien dan modern, baik bagi pelanggan maupun administrator hotel.
 
+# ERD
+![ERD-hotelify](https://github.com/user-attachments/assets/b370c60c-b16f-4b98-9db9-ed085ae96da6)
+
+
 ## Fitur Utama
 
 - **Manajemen Pengguna:**
