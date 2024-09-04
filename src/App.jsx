@@ -7,6 +7,7 @@ import "./index.css";
 export const KrjContext = createContext();
 
 export default function App() {
+
   return (
     <KrjContext.Provider>
       <div className="App">

@@ -28,15 +28,15 @@ const ProfilePage = () => {
         navigate('/home');
     };
 
-    const handleEditProfile = () => {
-        navigate('/edit-profile');
-    };
+    // const handleEditProfile = () => {
+    //     navigate('/edit-profile');
+    // };
 
     return (
         <div className="profile-page">
             {user && <h2>Welcome, {user.name}</h2>}
             <div className="profile-actions">
-                <button className="edit-profile-button" onClick={handleEditProfile}>Edit Profile</button>
+                {/* <button className="edit-profile-button" onClick={handleEditProfile}>Edit Profile</button> */}
                 <button className="logout-button" onClick={handleLogout}>Logout</button>
             </div>
             {error && <p className="error-message">{error}</p>}
@@ -63,7 +63,6 @@ const ProfilePage = () => {
         alt="Room"
         className="room-photo"
       />
-                                {/* <img src={booking.room.roomPhotoUrl} alt="Room" className="room-photo" /> */}
                             </div>
                         ))
                     ) : (
